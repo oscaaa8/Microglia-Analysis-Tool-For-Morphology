@@ -8,6 +8,9 @@ Active development. Current focus is on GUI usability and reproducible analysis 
 ## Overview
 This application loads CZI stacks, computes a maximum intensity projection (MIP) for visualization, allows threshold-based segmentation, and supports ROI-by-ROI processing with saved skeletons and quantitative metrics.
 
+## GUI Preview
+![GUI overview](assets/gui_overview.png)
+
 ## Key Features
 - GUI for CZI stack inspection and threshold tuning
 - ROI selection with keyboard navigation (A/D)
@@ -57,6 +60,10 @@ Edit the `Quick Config` block at the top of `app.py` to adjust visualization set
 Future validation will include case-study comparisons of microglia morphology across conditions such as:
 - Alcohol-exposed vs control mouse brain sections
 - Early-stage vs late-stage Alzheimer's models
+
+## Examples
+![ROI example](assets/ROI_1_example.png)
+![Stats example](assets/Stats_Example.png)
 
 ## License
 TBD.
